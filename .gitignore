@@ -8,7 +8,6 @@ __pycache__/
 *$py.class
 *.so
 .Python
-env/
 build/
 develop-eggs/
 dist/
@@ -27,6 +26,7 @@ wheels/
 
 # Virtual Environment
 venv/
+env/
 ENV/
 
 # IDE
@@ -39,6 +39,8 @@ ENV/
 .DS_Store
 Thumbs.db
 
-# Model files (optional, uncomment if you want to ignore model files)
+# Model files (uncomment if you want to ignore model files)
 # *.h5
-# best_model.h5 
+# *.hdf5
+# *.pkl
+# *.model 
